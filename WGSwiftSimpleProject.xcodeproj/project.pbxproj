@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3220798122BA0A04009C9461 /* WGNetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220798022BA0A04009C9461 /* WGNetRequest.swift */; };
+		3220798422BA179A009C9461 /* WGCommonMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220798322BA179A009C9461 /* WGCommonMethod.swift */; };
+		3220798722BA1921009C9461 /* String_md5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220798622BA1921009C9461 /* String_md5.swift */; };
+		3220798922BA2033009C9461 /* Dictionary_merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220798822BA2033009C9461 /* Dictionary_merge.swift */; };
+		3220799122BB189C009C9461 /* WGLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220799022BB189C009C9461 /* WGLoginModel.swift */; };
+		322F13B122BB681B00FE561E /* WGTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F13B022BB681B00FE561E /* WGTabBarController.swift */; };
+		322F13B322BB6E0600FE561E /* WGTrainMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F13B222BB6E0600FE561E /* WGTrainMainViewController.swift */; };
+		322F13B522BB6E1C00FE561E /* WGMyMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F13B422BB6E1C00FE561E /* WGMyMainViewController.swift */; };
+		322F13B922BB7AB400FE561E /* WGSetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F13B822BB7AB400FE561E /* WGSetingViewController.swift */; };
+		322F13BD22BB8D8800FE561E /* WGHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F13BC22BB8D8800FE561E /* WGHUD.swift */; };
 		3258756222B9CE5000EA3966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258756122B9CE5000EA3966 /* AppDelegate.swift */; };
-		3258756422B9CE5000EA3966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258756322B9CE5000EA3966 /* ViewController.swift */; };
-		3258756722B9CE5000EA3966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3258756522B9CE5000EA3966 /* Main.storyboard */; };
 		3258756922B9CE5100EA3966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3258756822B9CE5100EA3966 /* Assets.xcassets */; };
 		3258756C22B9CE5100EA3966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3258756A22B9CE5100EA3966 /* LaunchScreen.storyboard */; };
 		3258757722B9CE5200EA3966 /* WGSwiftSimpleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258757622B9CE5200EA3966 /* WGSwiftSimpleProjectTests.swift */; };
 		3258758222B9CE5200EA3966 /* WGSwiftSimpleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258758122B9CE5200EA3966 /* WGSwiftSimpleProjectUITests.swift */; };
+		3258759022B9D0FB00EA3966 /* WGLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258758F22B9D0FB00EA3966 /* WGLoginViewController.swift */; };
+		3258759822B9D77F00EA3966 /* UIView_WGFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258759722B9D77F00EA3966 /* UIView_WGFrame.swift */; };
+		3258759A22B9D81900EA3966 /* WGDefineFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258759922B9D81900EA3966 /* WGDefineFile.swift */; };
+		48B8D2CA29AA4D97CD603190 /* Pods_WGSwiftSimpleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068042F1015F5F1FD488B9B4 /* Pods_WGSwiftSimpleProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05B3593A6FA6D383067F50C8 /* Pods-WGSwiftSimpleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGSwiftSimpleProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGSwiftSimpleProject/Pods-WGSwiftSimpleProject.release.xcconfig"; sourceTree = "<group>"; };
+		068042F1015F5F1FD488B9B4 /* Pods_WGSwiftSimpleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WGSwiftSimpleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3220798022BA0A04009C9461 /* WGNetRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGNetRequest.swift; sourceTree = "<group>"; };
+		3220798322BA179A009C9461 /* WGCommonMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCommonMethod.swift; sourceTree = "<group>"; };
+		3220798622BA1921009C9461 /* String_md5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_md5.swift; sourceTree = "<group>"; };
+		3220798822BA2033009C9461 /* Dictionary_merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary_merge.swift; sourceTree = "<group>"; };
+		3220798C22BA33DF009C9461 /* WGSwiftSimpleProject-Briding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WGSwiftSimpleProject-Briding-Header.h"; sourceTree = "<group>"; };
+		3220799022BB189C009C9461 /* WGLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGLoginModel.swift; sourceTree = "<group>"; };
+		322F13B022BB681B00FE561E /* WGTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGTabBarController.swift; sourceTree = "<group>"; };
+		322F13B222BB6E0600FE561E /* WGTrainMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGTrainMainViewController.swift; sourceTree = "<group>"; };
+		322F13B422BB6E1C00FE561E /* WGMyMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGMyMainViewController.swift; sourceTree = "<group>"; };
+		322F13B822BB7AB400FE561E /* WGSetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGSetingViewController.swift; sourceTree = "<group>"; };
+		322F13BC22BB8D8800FE561E /* WGHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGHUD.swift; sourceTree = "<group>"; };
 		3258755E22B9CE5000EA3966 /* WGSwiftSimpleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGSwiftSimpleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3258756122B9CE5000EA3966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3258756322B9CE5000EA3966 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3258756622B9CE5000EA3966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3258756822B9CE5100EA3966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3258756B22B9CE5100EA3966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3258756D22B9CE5100EA3966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +70,10 @@
 		3258757D22B9CE5200EA3966 /* WGSwiftSimpleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGSwiftSimpleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3258758122B9CE5200EA3966 /* WGSwiftSimpleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGSwiftSimpleProjectUITests.swift; sourceTree = "<group>"; };
 		3258758322B9CE5200EA3966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3258758F22B9D0FB00EA3966 /* WGLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGLoginViewController.swift; sourceTree = "<group>"; };
+		3258759722B9D77F00EA3966 /* UIView_WGFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_WGFrame.swift; sourceTree = "<group>"; };
+		3258759922B9D81900EA3966 /* WGDefineFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGDefineFile.swift; sourceTree = "<group>"; };
+		F94196DCFAE0DCC7C11843FB /* Pods-WGSwiftSimpleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGSwiftSimpleProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGSwiftSimpleProject/Pods-WGSwiftSimpleProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B8D2CA29AA4D97CD603190 /* Pods_WGSwiftSimpleProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +102,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3220797F22BA099F009C9461 /* NetWorks */ = {
+			isa = PBXGroup;
+			children = (
+				3220798022BA0A04009C9461 /* WGNetRequest.swift */,
+			);
+			path = NetWorks;
+			sourceTree = "<group>";
+		};
+		3220798222BA1749009C9461 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3258759722B9D77F00EA3966 /* UIView_WGFrame.swift */,
+				3220798322BA179A009C9461 /* WGCommonMethod.swift */,
+				322F13BC22BB8D8800FE561E /* WGHUD.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3220798522BA1903009C9461 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3220798622BA1921009C9461 /* String_md5.swift */,
+				3220798822BA2033009C9461 /* Dictionary_merge.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		322F13AF22BB678600FE561E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				322F13B022BB681B00FE561E /* WGTabBarController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		322F13B622BB728A00FE561E /* MY */ = {
+			isa = PBXGroup;
+			children = (
+				322F13B422BB6E1C00FE561E /* WGMyMainViewController.swift */,
+				322F13B822BB7AB400FE561E /* WGSetingViewController.swift */,
+			);
+			path = MY;
+			sourceTree = "<group>";
+		};
+		322F13B722BB72A100FE561E /* Train */ = {
+			isa = PBXGroup;
+			children = (
+				322F13B222BB6E0600FE561E /* WGTrainMainViewController.swift */,
+			);
+			path = Train;
+			sourceTree = "<group>";
+		};
 		3258755522B9CE5000EA3966 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +161,8 @@
 				3258757522B9CE5200EA3966 /* WGSwiftSimpleProjectTests */,
 				3258758022B9CE5200EA3966 /* WGSwiftSimpleProjectUITests */,
 				3258755F22B9CE5000EA3966 /* Products */,
+				C4521E076B118DD148B8AF12 /* Pods */,
+				93F7307A51D5AADD0255B1CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +179,12 @@
 		3258756022B9CE5000EA3966 /* WGSwiftSimpleProject */ = {
 			isa = PBXGroup;
 			children = (
-				3258756122B9CE5000EA3966 /* AppDelegate.swift */,
-				3258756322B9CE5000EA3966 /* ViewController.swift */,
-				3258756522B9CE5000EA3966 /* Main.storyboard */,
-				3258756822B9CE5100EA3966 /* Assets.xcassets */,
-				3258756A22B9CE5100EA3966 /* LaunchScreen.storyboard */,
-				3258756D22B9CE5100EA3966 /* Info.plist */,
+				322F13B722BB72A100FE561E /* Train */,
+				322F13B622BB728A00FE561E /* MY */,
+				322F13AF22BB678600FE561E /* Base */,
+				3258759622B9D75A00EA3966 /* Common */,
+				3258759222B9D25400EA3966 /* Login */,
+				3258759122B9D17C00EA3966 /* AppMain */,
 			);
 			path = WGSwiftSimpleProject;
 			sourceTree = "<group>";
@@ -125,6 +207,79 @@
 			path = WGSwiftSimpleProjectUITests;
 			sourceTree = "<group>";
 		};
+		3258759122B9D17C00EA3966 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+				3258756122B9CE5000EA3966 /* AppDelegate.swift */,
+				3258759922B9D81900EA3966 /* WGDefineFile.swift */,
+				3220798C22BA33DF009C9461 /* WGSwiftSimpleProject-Briding-Header.h */,
+				3258756822B9CE5100EA3966 /* Assets.xcassets */,
+				3258756A22B9CE5100EA3966 /* LaunchScreen.storyboard */,
+				3258756D22B9CE5100EA3966 /* Info.plist */,
+			);
+			path = AppMain;
+			sourceTree = "<group>";
+		};
+		3258759222B9D25400EA3966 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3258759522B9D2B900EA3966 /* Models */,
+				3258759422B9D2AF00EA3966 /* Views */,
+				3258759322B9D29500EA3966 /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3258759322B9D29500EA3966 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3258758F22B9D0FB00EA3966 /* WGLoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3258759422B9D2AF00EA3966 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3258759522B9D2B900EA3966 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3220799022BB189C009C9461 /* WGLoginModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3258759622B9D75A00EA3966 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3220798522BA1903009C9461 /* Extensions */,
+				3220798222BA1749009C9461 /* Tools */,
+				3220797F22BA099F009C9461 /* NetWorks */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		93F7307A51D5AADD0255B1CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				068042F1015F5F1FD488B9B4 /* Pods_WGSwiftSimpleProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4521E076B118DD148B8AF12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F94196DCFAE0DCC7C11843FB /* Pods-WGSwiftSimpleProject.debug.xcconfig */,
+				05B3593A6FA6D383067F50C8 /* Pods-WGSwiftSimpleProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3258758622B9CE5200EA3966 /* Build configuration list for PBXNativeTarget "WGSwiftSimpleProject" */;
 			buildPhases = (
+				2DDA283655EBEF96281EE9E0 /* [CP] Check Pods Manifest.lock */,
 				3258755A22B9CE5000EA3966 /* Sources */,
 				3258755B22B9CE5000EA3966 /* Frameworks */,
 				3258755C22B9CE5000EA3966 /* Resources */,
+				BD4581D6C157C7BF75E73ABF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,6 +344,7 @@
 		3258755622B9CE5000EA3966 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WG;
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = wg;
@@ -231,7 +389,6 @@
 			files = (
 				3258756C22B9CE5100EA3966 /* LaunchScreen.storyboard in Resources */,
 				3258756922B9CE5100EA3966 /* Assets.xcassets in Resources */,
-				3258756722B9CE5000EA3966 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +408,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DDA283655EBEF96281EE9E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WGSwiftSimpleProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD4581D6C157C7BF75E73ABF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WGSwiftSimpleProject/Pods-WGSwiftSimpleProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TYAlertController/TYAlertController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYAlertController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGSwiftSimpleProject/Pods-WGSwiftSimpleProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3258755A22B9CE5000EA3966 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3258756422B9CE5000EA3966 /* ViewController.swift in Sources */,
+				322F13B322BB6E0600FE561E /* WGTrainMainViewController.swift in Sources */,
+				3258759022B9D0FB00EA3966 /* WGLoginViewController.swift in Sources */,
+				3220798422BA179A009C9461 /* WGCommonMethod.swift in Sources */,
+				322F13B522BB6E1C00FE561E /* WGMyMainViewController.swift in Sources */,
+				3220798722BA1921009C9461 /* String_md5.swift in Sources */,
+				322F13B122BB681B00FE561E /* WGTabBarController.swift in Sources */,
 				3258756222B9CE5000EA3966 /* AppDelegate.swift in Sources */,
+				3258759A22B9D81900EA3966 /* WGDefineFile.swift in Sources */,
+				3258759822B9D77F00EA3966 /* UIView_WGFrame.swift in Sources */,
+				3220798922BA2033009C9461 /* Dictionary_merge.swift in Sources */,
+				3220798122BA0A04009C9461 /* WGNetRequest.swift in Sources */,
+				322F13BD22BB8D8800FE561E /* WGHUD.swift in Sources */,
+				3220799122BB189C009C9461 /* WGLoginModel.swift in Sources */,
+				322F13B922BB7AB400FE561E /* WGSetingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +523,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3258756522B9CE5000EA3966 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3258756622B9CE5000EA3966 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3258756A22B9CE5100EA3966 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,37 +652,45 @@
 		};
 		3258758722B9CE5200EA3966 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F94196DCFAE0DCC7C11843FB /* Pods-WGSwiftSimpleProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
-				INFOPLIST_FILE = WGSwiftSimpleProject/Info.plist;
+				INFOPLIST_FILE = WGSwiftSimpleProject/AppMain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wg.WGSwiftSimpleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WGSwiftSimpleProject/AppMain/WGSwiftSimpleProject-Briding-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		3258758822B9CE5200EA3966 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B3593A6FA6D383067F50C8 /* Pods-WGSwiftSimpleProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
-				INFOPLIST_FILE = WGSwiftSimpleProject/Info.plist;
+				INFOPLIST_FILE = WGSwiftSimpleProject/AppMain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wg.WGSwiftSimpleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WGSwiftSimpleProject/AppMain/WGSwiftSimpleProject-Briding-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};

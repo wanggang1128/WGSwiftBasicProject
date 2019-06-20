@@ -1,0 +1,6 @@
+framework module Pods_WGSwiftSimpleProject {
+  umbrella header "Pods-WGSwiftSimpleProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

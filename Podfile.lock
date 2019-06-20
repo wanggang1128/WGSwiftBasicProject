@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.8.2)
+  - MJExtension (3.0.17)
+  - MJRefresh (3.2.0)
+  - PKHUD (5.3.0)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - SwiftyJSON (5.0.0)
+  - TYAlertController (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MJExtension
+  - MJRefresh
+  - PKHUD
+  - SDCycleScrollView
+  - SDWebImage
+  - SwiftyJSON
+  - TYAlertController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - MJExtension
+    - MJRefresh
+    - PKHUD
+    - SDCycleScrollView
+    - SDWebImage
+    - SwiftyJSON
+    - TYAlertController
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TYAlertController: c121090edb0bea7426f987da94cdddd81eef4231
+
+PODFILE CHECKSUM: b5ebe2ebd6ed66c0abba2df331ee270205679c6a
+
+COCOAPODS: 1.5.3
