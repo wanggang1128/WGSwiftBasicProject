@@ -36,6 +36,8 @@ let Device_Iphone_XR = __CGSizeEqualToSize(CGSize(width: 828/2, height: 1792/2),
 let Device_Iphone_XS = __CGSizeEqualToSize(CGSize(width: 1125/3, height: 2436/3), ScreenSize)
 //判断iPhoneXs Max
 let Device_Iphone_XS_MAX = __CGSizeEqualToSize(CGSize(width: 1242/3, height: 2688/3), ScreenSize)
+//是否属于X系列
+let IsIphoneX = (Device_Iphone_X||Device_Iphone_XR||Device_Iphone_XS||Device_Iphone_XS_MAX)
 
 //状态栏高度
 let StateBar_Height:CGFloat = ((Device_Iphone_X||Device_Iphone_XR||Device_Iphone_XS||Device_Iphone_XS_MAX) ? 44.0: 20.0)

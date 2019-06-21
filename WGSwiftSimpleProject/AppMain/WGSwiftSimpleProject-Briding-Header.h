@@ -13,6 +13,6 @@
 #import "TYAlertController.h"
 #import "MJRefresh.h"
 #import "PKHUD.h"
-
+#import "SDWebImage.h"
 
 #endif /* WGSwiftSimpleProject_Briding_Header_h */

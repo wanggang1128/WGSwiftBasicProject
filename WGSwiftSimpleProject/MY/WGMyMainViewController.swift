@@ -10,6 +10,7 @@ import UIKit
 
 class WGMyMainViewController: UIViewController {
 
+    //可选类型
     var tableView:UITableView?
     let dataArr = ["学分查询","意见反馈","积分商城","我的收藏","系统设置"]
     
