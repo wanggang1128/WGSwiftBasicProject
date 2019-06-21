@@ -16,6 +16,7 @@
 		3224657B22BCA4120024C5C6 /* WGAdvertisingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3224657A22BCA4120024C5C6 /* WGAdvertisingCollectionViewCell.swift */; };
 		3224657D22BCAB480024C5C6 /* WGDescovHospitalListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3224657C22BCAB480024C5C6 /* WGDescovHospitalListModel.swift */; };
 		3224657F22BCAFFC0024C5C6 /* WGDescovHospitalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3224657E22BCAFFC0024C5C6 /* WGDescovHospitalTableViewCell.swift */; };
+		3224658122BCCB3F0024C5C6 /* WGDesHospitalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3224658022BCCB3F0024C5C6 /* WGDesHospitalHeaderView.swift */; };
 		322F13B122BB681B00FE561E /* WGTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F13B022BB681B00FE561E /* WGTabBarController.swift */; };
 		322F13B322BB6E0600FE561E /* WGTrainMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F13B222BB6E0600FE561E /* WGTrainMainViewController.swift */; };
 		322F13B522BB6E1C00FE561E /* WGMyMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F13B422BB6E1C00FE561E /* WGMyMainViewController.swift */; };
@@ -62,6 +63,7 @@
 		3224657A22BCA4120024C5C6 /* WGAdvertisingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGAdvertisingCollectionViewCell.swift; sourceTree = "<group>"; };
 		3224657C22BCAB480024C5C6 /* WGDescovHospitalListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGDescovHospitalListModel.swift; sourceTree = "<group>"; };
 		3224657E22BCAFFC0024C5C6 /* WGDescovHospitalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGDescovHospitalTableViewCell.swift; sourceTree = "<group>"; };
+		3224658022BCCB3F0024C5C6 /* WGDesHospitalHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGDesHospitalHeaderView.swift; sourceTree = "<group>"; };
 		322F13B022BB681B00FE561E /* WGTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGTabBarController.swift; sourceTree = "<group>"; };
 		322F13B222BB6E0600FE561E /* WGTrainMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGTrainMainViewController.swift; sourceTree = "<group>"; };
 		322F13B422BB6E1C00FE561E /* WGMyMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGMyMainViewController.swift; sourceTree = "<group>"; };
@@ -278,6 +280,7 @@
 			children = (
 				3224657A22BCA4120024C5C6 /* WGAdvertisingCollectionViewCell.swift */,
 				3224657E22BCAFFC0024C5C6 /* WGDescovHospitalTableViewCell.swift */,
+				3224658022BCCB3F0024C5C6 /* WGDesHospitalHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -515,6 +518,7 @@
 				3258759822B9D77F00EA3966 /* UIView_WGFrame.swift in Sources */,
 				3220798922BA2033009C9461 /* Dictionary_merge.swift in Sources */,
 				3220798122BA0A04009C9461 /* WGNetRequest.swift in Sources */,
+				3224658122BCCB3F0024C5C6 /* WGDesHospitalHeaderView.swift in Sources */,
 				322F13BD22BB8D8800FE561E /* WGHUD.swift in Sources */,
 				3220799122BB189C009C9461 /* WGLoginModel.swift in Sources */,
 				322F13B922BB7AB400FE561E /* WGSetingViewController.swift in Sources */,
