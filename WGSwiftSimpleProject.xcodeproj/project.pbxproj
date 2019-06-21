@@ -149,7 +149,9 @@
 		322F13B722BB72A100FE561E /* Train */ = {
 			isa = PBXGroup;
 			children = (
-				322F13B222BB6E0600FE561E /* WGTrainMainViewController.swift */,
+				32B645AD22BC68950081EF8E /* Models */,
+				32B645AC22BC68600081EF8E /* Views */,
+				32B645AB22BC683C0081EF8E /* Controllers */,
 			);
 			path = Train;
 			sourceTree = "<group>";
@@ -261,6 +263,28 @@
 				3220797F22BA099F009C9461 /* NetWorks */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		32B645AB22BC683C0081EF8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				322F13B222BB6E0600FE561E /* WGTrainMainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		32B645AC22BC68600081EF8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32B645AD22BC68950081EF8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		93F7307A51D5AADD0255B1CE /* Frameworks */ = {
@@ -592,6 +616,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -646,6 +671,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -666,7 +692,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WGSwiftSimpleProject/AppMain/WGSwiftSimpleProject-Briding-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
@@ -688,7 +714,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WGSwiftSimpleProject/AppMain/WGSwiftSimpleProject-Briding-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
@@ -709,7 +735,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wg.WGSwiftSimpleProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGSwiftSimpleProject.app/WGSwiftSimpleProject";
 			};
@@ -730,7 +756,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wg.WGSwiftSimpleProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGSwiftSimpleProject.app/WGSwiftSimpleProject";
 			};
@@ -750,7 +776,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wg.WGSwiftSimpleProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WGSwiftSimpleProject;
 			};
@@ -770,7 +796,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wg.WGSwiftSimpleProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WGSwiftSimpleProject;
 			};

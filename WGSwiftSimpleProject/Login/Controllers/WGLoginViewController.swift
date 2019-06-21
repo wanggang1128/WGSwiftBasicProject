@@ -89,6 +89,8 @@ class WGLoginViewController: UIViewController {
                 let json = response.json!
                 let dic = json["data"].rawValue
                 let model = WGLoginModel.mj_object(withKeyValues: dic)
+                
+                //存储登录信息
                 UserDefaults.standard.set(model?.itsId, forKey: "NURSEID")
                 UserDefaults.standard.set(model?.name, forKey: "NURSENAME")
                 

@@ -21,7 +21,7 @@ class WGTabBarController: UITabBarController {
     func addChildViewController(controller: UIViewController, title: String, defaultImg: UIImage, selectorImg: UIImage){
         
         controller.tabBarItem = UITabBarItem(title: title, image: defaultImg.withRenderingMode(.alwaysOriginal), selectedImage: selectorImg.withRenderingMode(.alwaysOriginal))
-    controller.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.blue, NSAttributedString.Key.font: UIFont.systemFont(ofSize: 20)], for: .selected)
+    controller.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.blue, NSAttributedString.Key.font: UIFont.systemFont(ofSize: 30)], for: .selected)
         
         let nav = UINavigationController(rootViewController: controller)
         self.addChild(nav)

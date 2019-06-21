@@ -31,7 +31,7 @@ class WGSetingViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        UIView.animate(withDuration: 1) {
+        UIView.animate(withDuration: 0.5) {
             
             self.logoutBtn.frame = CGRect(x: Common_Margin, y: (ScreenHeight-50)/2, width: ScreenWidth-Common_Margin*2, height: 50)
             self.logoutBtn.alpha = 1
