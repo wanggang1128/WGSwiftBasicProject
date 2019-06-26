@@ -31,6 +31,7 @@ class WGTrainMainViewController: UIViewController {
         view.backgroundColor = UIColor.white
         
         createView()
+        //所有接口都完成后,统一刷新UI
         loadNetData()
     }
 
@@ -83,8 +84,11 @@ class WGTrainMainViewController: UIViewController {
                 
                 let json = response.json!
                 let arr = json["data"].rawValue
+                //返回的是OC类型数组
                 let list = (WGAdvertisingModel.mj_objectArray(withKeyValuesArray: arr))
+                
                 if list != nil {
+                    //转为Swift类型数组
                     self.imgDataArr = list! as NSArray as? [WGAdvertisingModel]
                 }
                 
@@ -111,6 +115,7 @@ class WGTrainMainViewController: UIViewController {
                 if list != nil{
                     
                     let array = list! as NSArray as? [WGDescovHospitalListModel]
+                    //数组拼接,即把array中的元素添加到tabDataArr中
                     self.tabDataArr += array!
                 }
             }
@@ -133,7 +138,6 @@ extension WGTrainMainViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "WGDescovHospitalTableViewCell") as! WGDescovHospitalTableViewCell
-        
         cell.model = tabDataArr[indexPath.row]
         return cell
     }
@@ -141,6 +145,11 @@ extension WGTrainMainViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        let vc = WGDescovListDetailViewController()
+        vc.model = tabDataArr[indexPath.row]
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

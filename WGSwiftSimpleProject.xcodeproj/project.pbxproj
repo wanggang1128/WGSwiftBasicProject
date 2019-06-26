@@ -30,6 +30,15 @@
 		3258759022B9D0FB00EA3966 /* WGLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258758F22B9D0FB00EA3966 /* WGLoginViewController.swift */; };
 		3258759822B9D77F00EA3966 /* UIView_WGFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258759722B9D77F00EA3966 /* UIView_WGFrame.swift */; };
 		3258759A22B9D81900EA3966 /* WGDefineFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258759922B9D81900EA3966 /* WGDefineFile.swift */; };
+		32847BB422C064690023593A /* WGSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32847BB322C064690023593A /* WGSegmentView.swift */; };
+		32847BB622C066C20023593A /* WGCreateUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32847BB522C066C20023593A /* WGCreateUI.swift */; };
+		32847BB822C09C6D0023593A /* WGDescovListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32847BB722C09C6D0023593A /* WGDescovListDetailViewController.swift */; };
+		32847BBA22C0B9D50023593A /* WGDescovListDetailChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32847BB922C0B9D50023593A /* WGDescovListDetailChildViewController.swift */; };
+		32847BBC22C1D0AC0023593A /* UIView_change.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32847BBB22C1D0AC0023593A /* UIView_change.swift */; };
+		32847BBE22C3184E0023593A /* WGDescovListSagmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32847BBD22C3184E0023593A /* WGDescovListSagmentModel.swift */; };
+		32847BC022C334400023593A /* WGDesHosListDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32847BBF22C334400023593A /* WGDesHosListDetailTableViewCell.swift */; };
+		32847BC222C338E40023593A /* WGWGDesHosListDetailTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32847BC122C338E40023593A /* WGWGDesHosListDetailTableViewModel.swift */; };
+		32847BC422C33CC80023593A /* UIButton_text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32847BC322C33CC80023593A /* UIButton_text.swift */; };
 		48B8D2CA29AA4D97CD603190 /* Pods_WGSwiftSimpleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068042F1015F5F1FD488B9B4 /* Pods_WGSwiftSimpleProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +92,15 @@
 		3258758F22B9D0FB00EA3966 /* WGLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGLoginViewController.swift; sourceTree = "<group>"; };
 		3258759722B9D77F00EA3966 /* UIView_WGFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_WGFrame.swift; sourceTree = "<group>"; };
 		3258759922B9D81900EA3966 /* WGDefineFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGDefineFile.swift; sourceTree = "<group>"; };
+		32847BB322C064690023593A /* WGSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGSegmentView.swift; sourceTree = "<group>"; };
+		32847BB522C066C20023593A /* WGCreateUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCreateUI.swift; sourceTree = "<group>"; };
+		32847BB722C09C6D0023593A /* WGDescovListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGDescovListDetailViewController.swift; sourceTree = "<group>"; };
+		32847BB922C0B9D50023593A /* WGDescovListDetailChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGDescovListDetailChildViewController.swift; sourceTree = "<group>"; };
+		32847BBB22C1D0AC0023593A /* UIView_change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_change.swift; sourceTree = "<group>"; };
+		32847BBD22C3184E0023593A /* WGDescovListSagmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGDescovListSagmentModel.swift; sourceTree = "<group>"; };
+		32847BBF22C334400023593A /* WGDesHosListDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGDesHosListDetailTableViewCell.swift; sourceTree = "<group>"; };
+		32847BC122C338E40023593A /* WGWGDesHosListDetailTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGWGDesHosListDetailTableViewModel.swift; sourceTree = "<group>"; };
+		32847BC322C33CC80023593A /* UIButton_text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton_text.swift; sourceTree = "<group>"; };
 		F94196DCFAE0DCC7C11843FB /* Pods-WGSwiftSimpleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGSwiftSimpleProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGSwiftSimpleProject/Pods-WGSwiftSimpleProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +144,8 @@
 				3258759722B9D77F00EA3966 /* UIView_WGFrame.swift */,
 				3220798322BA179A009C9461 /* WGCommonMethod.swift */,
 				322F13BC22BB8D8800FE561E /* WGHUD.swift */,
+				32847BB322C064690023593A /* WGSegmentView.swift */,
+				32847BB522C066C20023593A /* WGCreateUI.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -135,6 +155,8 @@
 			children = (
 				3220798622BA1921009C9461 /* String_md5.swift */,
 				3220798822BA2033009C9461 /* Dictionary_merge.swift */,
+				32847BBB22C1D0AC0023593A /* UIView_change.swift */,
+				32847BC322C33CC80023593A /* UIButton_text.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -271,6 +293,8 @@
 			isa = PBXGroup;
 			children = (
 				322F13B222BB6E0600FE561E /* WGTrainMainViewController.swift */,
+				32847BB722C09C6D0023593A /* WGDescovListDetailViewController.swift */,
+				32847BB922C0B9D50023593A /* WGDescovListDetailChildViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -281,6 +305,7 @@
 				3224657A22BCA4120024C5C6 /* WGAdvertisingCollectionViewCell.swift */,
 				3224657E22BCAFFC0024C5C6 /* WGDescovHospitalTableViewCell.swift */,
 				3224658022BCCB3F0024C5C6 /* WGDesHospitalHeaderView.swift */,
+				32847BBF22C334400023593A /* WGDesHosListDetailTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,6 +315,8 @@
 			children = (
 				3224657822BC86250024C5C6 /* WGAdvertisingModel.swift */,
 				3224657C22BCAB480024C5C6 /* WGDescovHospitalListModel.swift */,
+				32847BBD22C3184E0023593A /* WGDescovListSagmentModel.swift */,
+				32847BC122C338E40023593A /* WGWGDesHosListDetailTableViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -505,12 +532,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32847BC422C33CC80023593A /* UIButton_text.swift in Sources */,
 				322F13B322BB6E0600FE561E /* WGTrainMainViewController.swift in Sources */,
 				3258759022B9D0FB00EA3966 /* WGLoginViewController.swift in Sources */,
 				3220798422BA179A009C9461 /* WGCommonMethod.swift in Sources */,
+				32847BB822C09C6D0023593A /* WGDescovListDetailViewController.swift in Sources */,
+				32847BBC22C1D0AC0023593A /* UIView_change.swift in Sources */,
 				3224657922BC86250024C5C6 /* WGAdvertisingModel.swift in Sources */,
 				322F13B522BB6E1C00FE561E /* WGMyMainViewController.swift in Sources */,
 				3224657B22BCA4120024C5C6 /* WGAdvertisingCollectionViewCell.swift in Sources */,
+				32847BBA22C0B9D50023593A /* WGDescovListDetailChildViewController.swift in Sources */,
 				3220798722BA1921009C9461 /* String_md5.swift in Sources */,
 				322F13B122BB681B00FE561E /* WGTabBarController.swift in Sources */,
 				3258756222B9CE5000EA3966 /* AppDelegate.swift in Sources */,
@@ -518,11 +549,16 @@
 				3258759822B9D77F00EA3966 /* UIView_WGFrame.swift in Sources */,
 				3220798922BA2033009C9461 /* Dictionary_merge.swift in Sources */,
 				3220798122BA0A04009C9461 /* WGNetRequest.swift in Sources */,
+				32847BC022C334400023593A /* WGDesHosListDetailTableViewCell.swift in Sources */,
+				32847BC222C338E40023593A /* WGWGDesHosListDetailTableViewModel.swift in Sources */,
 				3224658122BCCB3F0024C5C6 /* WGDesHospitalHeaderView.swift in Sources */,
 				322F13BD22BB8D8800FE561E /* WGHUD.swift in Sources */,
 				3220799122BB189C009C9461 /* WGLoginModel.swift in Sources */,
 				322F13B922BB7AB400FE561E /* WGSetingViewController.swift in Sources */,
+				32847BB622C066C20023593A /* WGCreateUI.swift in Sources */,
 				3224657D22BCAB480024C5C6 /* WGDescovHospitalListModel.swift in Sources */,
+				32847BB422C064690023593A /* WGSegmentView.swift in Sources */,
+				32847BBE22C3184E0023593A /* WGDescovListSagmentModel.swift in Sources */,
 				3224657F22BCAFFC0024C5C6 /* WGDescovHospitalTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

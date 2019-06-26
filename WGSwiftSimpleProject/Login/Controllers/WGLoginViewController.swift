@@ -24,7 +24,6 @@ class WGLoginViewController: UIViewController {
         title = "登录"
         view.backgroundColor = UIColor.white
         
-        
         createView()
     }
 
@@ -113,7 +112,7 @@ class WGLoginViewController: UIViewController {
     }
 }
 
-
+//通过extension,让WGLoginViewController实现UITextFieldDelegate代理
 extension WGLoginViewController: UITextFieldDelegate{
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
