@@ -79,6 +79,7 @@ class WGDescovListDetailViewController: UIViewController {
         for model in sagmentDataArr {
             
             let vc = WGDescovListDetailChildViewController()
+            vc.nurseTrainExpertId = self.model.ID!
             vc.model = model
             self.addChild(vc)
         }

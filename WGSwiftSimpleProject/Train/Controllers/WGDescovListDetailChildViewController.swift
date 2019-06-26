@@ -11,6 +11,8 @@ import UIKit
 class WGDescovListDetailChildViewController: UIViewController {
 
     var model:WGDescovListSagmentModel?
+    var nurseTrainExpertId:String = ""
+    
     //非可选类型
     let tableView = UITableView()
     //非可选类型
@@ -49,7 +51,7 @@ class WGDescovListDetailChildViewController: UIViewController {
                      "classSort":model!.code!,
                      "pageNum":"1",
                      "pageSize":"200",
-                     "nurseTrainExpertId":"44",
+                     "nurseTrainExpertId":self.nurseTrainExpertId,
             ]
         
         WGNetRequest.reuqestWith(method: .get, url: "http://coursecenter.317hu.com/course-center-web/coursecenter/app/course/read/publicCourseLibrary/list", param: param, token: nil) { (response) in
