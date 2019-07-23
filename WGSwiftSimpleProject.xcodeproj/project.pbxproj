@@ -141,7 +141,6 @@
 		3220798222BA1749009C9461 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				3258759722B9D77F00EA3966 /* UIView_WGFrame.swift */,
 				3220798322BA179A009C9461 /* WGCommonMethod.swift */,
 				322F13BC22BB8D8800FE561E /* WGHUD.swift */,
 				32847BB322C064690023593A /* WGSegmentView.swift */,
@@ -153,6 +152,7 @@
 		3220798522BA1903009C9461 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				3258759722B9D77F00EA3966 /* UIView_WGFrame.swift */,
 				3220798622BA1921009C9461 /* String_md5.swift */,
 				3220798822BA2033009C9461 /* Dictionary_merge.swift */,
 				32847BBB22C1D0AC0023593A /* UIView_change.swift */,
