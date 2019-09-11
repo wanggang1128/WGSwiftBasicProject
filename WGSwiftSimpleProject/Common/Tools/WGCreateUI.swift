@@ -25,3 +25,18 @@ class WGCreateUI: NSObject {
         return btn
     }
 }
+
+//给button动态添加存储属性
+private var key:Void?
+extension UIButton{
+    
+    var aaa:String?{
+        get{
+            return objc_getAssociatedObject(self, &key) as? String;
+        }
+        set{
+            objc_setAssociatedObject(self, &key, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC);
+        }
+    }
+    
+}

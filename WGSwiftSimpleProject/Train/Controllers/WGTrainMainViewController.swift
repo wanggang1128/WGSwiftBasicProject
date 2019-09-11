@@ -74,7 +74,7 @@ class WGTrainMainViewController: UIViewController {
     
     func loadADData() {
         
-        let param = ["nurseId":"0"]
+        let param = ["nurseId":NURSEID]
         WGNetRequest.reuqestWith(method: .get, url: "http://uat.317hu.com/care-nurse/hospital/adInfo/317", param: param, token: nil) { (response) in
             
             // 出组

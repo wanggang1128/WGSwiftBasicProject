@@ -23,7 +23,7 @@ class WGLoginModel: NSObject {
         return ["itsId":"id"]
     }
     
-    //因为有子model数据,需要重写如下方法
+    //因为有子model数组,需要重写如下方法
     override func mj_keyValuesDidFinishConvertingToObject() {
         if self.hospitalsList != nil {
             

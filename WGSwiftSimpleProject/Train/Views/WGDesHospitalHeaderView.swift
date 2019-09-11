@@ -15,9 +15,9 @@ class WGDesHospitalHeaderView: UIView {
 
     //隐式解析可选类型
     var collectionView: UICollectionView!
-    var imgDataArr:[WGAdvertisingModel]?
     
-    var imgArr: [WGAdvertisingModel]?{
+    //属性监听
+    var imgDataArr: [WGAdvertisingModel]?{
         
         didSet{
             
