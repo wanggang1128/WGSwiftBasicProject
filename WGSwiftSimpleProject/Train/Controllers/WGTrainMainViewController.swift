@@ -74,8 +74,10 @@ class WGTrainMainViewController: UIViewController {
     
     func loadADData() {
         
+        let url01 = "http://317hu.com/care-nurse/hospital/adInfo/317"
+        
         let param = ["nurseId":NURSEID]
-        WGNetRequest.reuqestWith(method: .get, url: "http://uat.317hu.com/care-nurse/hospital/adInfo/317", param: param, token: nil) { (response) in
+        WGNetRequest.reuqestWith(method: .get, url: url01, param: param, token: nil) { (response) in
             
             // 出组
             self.group.leave()
@@ -102,7 +104,9 @@ class WGTrainMainViewController: UIViewController {
     
     func loadHOSData() {
         
-        WGNetRequest.reuqestWith(method: .get, url: "https://nursetrainuat.317hu.com/nurse-train-web/nursetrain/app/expertTeam/v2.6.1.1/expertByExpertType/2", param: nil, token: nil) { (response) in
+        let url01 = "https://317hu.com/nurse-train-web/nursetrain/app/expertTeam/v2.6.1.1/expertByExpertType/2"
+        
+        WGNetRequest.reuqestWith(method: .get, url: url01, param: nil, token: nil) { (response) in
             
             // 出组
             self.group.leave()

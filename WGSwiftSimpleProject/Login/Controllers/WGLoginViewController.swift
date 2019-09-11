@@ -80,7 +80,9 @@ class WGLoginViewController: UIViewController {
                                   ]
         ShowHUD()
         
-        WGNetRequest.reuqestWith(method: .post, url: "http://uat.317hu.com/care-nurse/nurse/account/login/byPassword", param: param, token: nil) { (response) in
+        let url01 = "http://317hu.com/care-nurse/nurse/account/login/byPassword"
+        
+        WGNetRequest.reuqestWith(method: .post, url: url01, param: param, token: nil) { (response) in
             
             HideHUD()
             
